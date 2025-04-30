@@ -4,7 +4,7 @@ class ReversedNumberusingLong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the Reversed Number u need to Reverese : ");
+        System.out.println("Enter the Reversed Number u need to Reverse : ");
         
         long n = sc.nextLong();
 
@@ -17,6 +17,6 @@ class ReversedNumberusingLong {
             n = n / 10;
         }
 
-        System.out.println("Reveresed Number : " + rev);
+        System.out.println("Reverse Number : " + rev);
     }
 }
